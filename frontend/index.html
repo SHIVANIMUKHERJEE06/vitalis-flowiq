@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vitalis Hospital — Operations & Spatial Care Portal</title>
+    <!-- Google Fonts: Plus Jakarta Sans & Inter for warm, friendly typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['"Plus Jakarta Sans"', 'Inter', 'sans-serif'],
+            },
+            colors: {
+              warm: {
+                50: '#FDFCF7',
+                100: '#F7F5EE',
+                200: '#ECE8DC',
+                300: '#DDD6C6',
+                400: '#C2B8A3',
+                500: '#A49880',
+                800: '#433D33',
+                900: '#2A261F'
+              },
+              sage: {
+                50: '#F2F7F4',
+                100: '#E2EDE7',
+                500: '#3D8B74',
+                600: '#2A7260',
+                700: '#1F5649',
+                800: '#174036'
+              },
+              clay: {
+                50: '#FDF5F2',
+                100: '#FBE8E2',
+                500: '#E06A55',
+                600: '#C7513C',
+                700: '#A53D2B'
+              },
+              amberwarm: {
+                50: '#FFFBEB',
+                100: '#FEF3C7',
+                500: '#F59E0B',
+                600: '#D97706',
+                700: '#B45309'
+              }
+            }
+          }
+        }
+      }
+    </script>
+  </head>
+  <body class="bg-[#FBFBF9] text-[#2D312E] font-sans antialiased min-h-screen selection:bg-sage-100 selection:text-sage-800">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

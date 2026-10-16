@@ -1,0 +1,7 @@
+roster_id,department_id,shift_type,nurses_on_duty,doctors_on_duty,active_surge_beds,nurse_to_patient_ratio
+R_01,D01,Day,6,3,10,0.22
+R_02,D01,Night,4,2,6,0.15
+R_03,D02,Day,5,2,4,0.30
+R_04,D03,Day,4,2,0,0.40
+R_05,D04,Day,6,4,8,0.25
+R_06,D05,Day,5,2,6,0.35
