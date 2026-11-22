@@ -1,0 +1,7 @@
+time_slot,expected_walk_ins,inbound_ems_ambulances,expected_triage_1_2,projected_surge_multiplier
+14:00,12,3,2,1.05
+15:00,16,4,3,1.20
+16:00,22,6,5,1.48
+17:00,28,8,6,1.72
+18:00,31,9,7,1.85
+19:00,25,5,4,1.40

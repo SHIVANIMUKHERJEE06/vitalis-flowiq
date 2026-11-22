@@ -1,0 +1,6 @@
+batch_id,department_id,test_type,pending_specimens,avg_turnaround_mins,equipment_status,critical_delay_flag
+B_101,D03,Spiral_Contrast_CT,14,86.4,Operational,1
+B_102,D03,Portable_Digital_XRay,4,19.5,Operational,0
+B_103,D01,STAT_Cardiac_Troponin,19,48.2,Delayed,1
+B_104,D03,3T_Neuro_Spine_MRI,8,72.0,Operational,0
+B_105,D04,Complete_Hemogram_CBC,26,32.0,Operational,0
